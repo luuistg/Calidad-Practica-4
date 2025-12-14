@@ -1,0 +1,35 @@
+# Archivos compilados
+target/
+*.class
+
+# Archivos de log
+*.log
+
+# Configuración de IDEs
+# IntelliJ
+.idea/
+*.iml
+out/
+
+# Eclipse
+.project
+.classpath
+.settings/
+
+# VS Code
+.vscode/
+
+# Archivos del sistema
+.DS_Store
+Thumbs.db
+
+# Archivos temporales
+*.swp
+*.swo
+*~
+
+# Maven wrapper (si no quieres versionar binarios)
+.mvn/wrapper/maven-wrapper.jar
+
+# Dependencias descargadas (Maven las gestiona)
+dependency-reduced-pom.xml
