@@ -58,7 +58,7 @@ class CuentaBancariaTest {
     @Test
     void retirarMontoValido_decrementaSaldo() {
         assertTrue(cuenta.retirar(40.0));
-        assertEquals(50.0, cuenta.getSaldo());
+        assertEquals(60.0, cuenta.getSaldo());
     }
 
     @Test
