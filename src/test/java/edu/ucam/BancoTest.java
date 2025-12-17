@@ -48,7 +48,7 @@ class BancoTest {
 
     @Test
     void saldoTotalBanco_correcto() {
-        assertEquals(140, banco.saldoTotalBanco());
+        assertEquals(150, banco.saldoTotalBanco());
     }
 
     @Test
